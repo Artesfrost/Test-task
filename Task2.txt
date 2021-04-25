@@ -1,0 +1,4 @@
+Create a docker-compose file, which runs nginx+php-fpm+(Redis or Memcached) as separate
+services in a custom common network.
+ 2.1 Only Nginx should be available outside.
+ 2.2 phpinfo() as index page on default virtual host in Nginx.
